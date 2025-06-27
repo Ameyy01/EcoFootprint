@@ -1,0 +1,53 @@
+.container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.textBlock {
+  flex: 1;
+  min-width: 300px;
+  color: #ffffff;
+}
+
+.textBlock h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #66fcf1;
+}
+
+.textBlock p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.textBlock button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #45a29e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.imageBlock {
+  flex: 1;
+  min-height: 200px;
+  min-width: 300px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+}

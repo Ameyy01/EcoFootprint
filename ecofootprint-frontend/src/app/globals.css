@@ -1,0 +1,111 @@
+/* Modern EcoFootprint Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root {
+  --eco-green: #43A047;
+  --eco-blue: #1976d2;
+  --eco-light: #e3f2fd;
+  --eco-bg-gradient: linear-gradient(135deg, #e3f2fd 0%, #e8f5e9 100%);
+  --eco-glass: rgba(255,255,255,0.7);
+  --eco-shadow: 0 8px 32px 0 rgba(25, 118, 210, 0.10);
+}
+
+html, body {
+  font-family: 'Inter', 'Nunito', 'Roboto', Arial, sans-serif;
+  background: var(--eco-bg-gradient);
+  color: #222;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--eco-bg-gradient);
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+a {
+  color: var(--eco-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--eco-green);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--eco-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--eco-blue);
+  border-radius: 8px;
+}
+
+/* Glassmorphism card style */
+.eco-card {
+  background: var(--eco-glass);
+  box-shadow: var(--eco-shadow);
+  border-radius: 18px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  color: var(--eco-blue);
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+/* Buttons */
+button, .MuiButton-root {
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  background: #43A047 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px 0 rgba(67, 160, 71, 0.10) !important;
+  transition: background 0.2s, box-shadow 0.2s !important;
+}
+button:hover, .MuiButton-root:hover {
+  background: #388e3c !important;
+  box-shadow: 0 4px 16px 0 rgba(67, 160, 71, 0.13) !important;
+}
+
+/* Outlined Button Variant */
+.MuiButton-outlined {
+  background: transparent !important;
+  color: #43A047 !important;
+  border: 2px solid #43A047 !important;
+}
+.MuiButton-outlined:hover {
+  background: #43A047 !important;
+  color: #fff !important;
+  border: 2px solid #388e3c !important;
+}
+
+/* Inputs */
+input, textarea, .MuiInputBase-root {
+  border-radius: 12px !important;
+  background: #f5fafd !important;
+  border: 1px solid #e3f2fd !important;
+  padding: 0.7em 1em !important;
+  font-size: 1rem !important;
+}
+
+/* Card and Paper overrides for glass look */
+.MuiCard-root, .MuiPaper-root {
+  background: var(--eco-glass) !important;
+  box-shadow: var(--eco-shadow) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+/* Add more as needed for a cohesive look */
