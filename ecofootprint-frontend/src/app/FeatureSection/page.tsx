@@ -161,15 +161,10 @@ export default function FeatureSection() {
           />
         </Paper>
       </Box>
-    </Container>
-  );
-}
 
-export function LearnMorePage() {
-  return (
-    <Box sx={{ bgcolor: 'background.default', minHeight: '100vh', py: 8 }}>
-      <Container maxWidth="lg">
-        <Typography variant="h2" align="center" sx={{ fontWeight: 800, color: 'primary.main', mb: 2 }}>
+      {/* Stats Section */}
+      <Box sx={{ mt: 8 }}>
+        <Typography variant="h3" align="center" sx={{ fontWeight: 800, color: 'primary.main', mb: 4 }}>
           Welcome to EcoFootprint
         </Typography>
         <Typography align="center" sx={{ color: 'text.secondary', mb: 6, fontSize: 20 }}>
@@ -240,7 +235,8 @@ export function LearnMorePage() {
             </Card>
           </Box>
         </Box>
-      </Container>
-    </Box>
+      </Box>
+    </Container>
   );
 }
+

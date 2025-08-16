@@ -11,7 +11,7 @@ const authRoutes = require('./routes/auth');
 dotenv.config();
 
 // Initialize Firebase Admin
-const serviceAccount = require('./serviceAcountKey.json.json');
+const serviceAccount = require('./serviceAccountKey.json');
 
 let firebaseApp;
 try {

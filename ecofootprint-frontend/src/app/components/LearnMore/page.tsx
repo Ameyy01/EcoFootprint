@@ -78,7 +78,7 @@ export default function LearnMorePage() {
           </Typography>
           <Typography variant="body1" mb={2}>
             EcoFootprint is a personal sustainability tracker that helps you log daily activities,
-            calculate carbon emissions, and receive actionable eco-tips. Whether you're commuting,
+            calculate carbon emissions, and receive actionable eco-tips. Whether you&apos;re commuting,
             eating out, or shopping, your carbon impact is calculated in real time.
           </Typography>
           <Typography variant="body1" mb={2}>
