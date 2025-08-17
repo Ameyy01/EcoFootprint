@@ -1,4 +1,13 @@
 {
+  "name": "ecofootprint",
+  "version": "1.0.0",
+  "description": "EcoFootprint - Carbon footprint tracking application",
+  "scripts": {
+    "start": "cd ecofootprint-backend && npm start",
+    "dev": "cd ecofootprint-backend && npm run dev",
+    "build": "cd ecofootprint-frontend && npm run build",
+    "install-all": "npm install && cd ecofootprint-backend && npm install && cd ../ecofootprint-frontend && npm install"
+  },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
