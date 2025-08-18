@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/leaderboard',
-        destination: 'http://localhost:5000/api/leaderboard',
+        destination: process.env.BACKEND_URL || 'https://ecofootprint-backend.onrender.com/api/leaderboard',
       },
     ];
   },
