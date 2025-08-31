@@ -53,7 +53,6 @@ app.use(cors({
     'http://localhost:3000', 
     'http://127.0.0.1:3000',
     'https://ecofootprint-frontend.vercel.app',
-    'https://ecofootprint-frontend-git-main-ecofootprint-frontend.vercel.app',
     'https://ecofootprint-frontend-git-main-ecofootprint-frontend.vercel.app'
   ],
   credentials: true,
